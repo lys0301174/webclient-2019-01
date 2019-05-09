@@ -190,7 +190,6 @@ ul#main-menu li a{
 #short-story{
     margin-top: 30px;
     height: 284px;
-    cursor: pointer;
 }
 
 #short-story a{
@@ -201,6 +200,7 @@ ul#main-menu li a{
     margin-right: 15px;
     text-align: center;
     float: left;
+    cursor: pointer;
 }
 
 #short-story a:hover{
