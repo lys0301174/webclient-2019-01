@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <title>Helen & Hard</title>
     <link href="HW_homepage_stylesheet.css" type="text/css" rel="stylesheet">
+    <script src="assets/js/jquery-1.6.1.min.js" type="text/javascript"></script>
+    <script src="assets/js/site.js" type="text/javascript"></script>
 </head>
     <body>
         <div id="page">
@@ -47,25 +49,248 @@
             <div id="main-menu-indicator" style="left: 85.7031px;"></div>
         </div>
             <div id="main-slider" class="sliderwrapper">
-                <div class="main-image" id="img3" style="left: 0px;">
+                <div class="main-image" style="left: 0px;">
+                    <img alt="Spa for Marina Abramović" src="images/made/uploads/projects/Body__Mind_Spa_for_Marina_Abromovic-01_1200_515_s_c1.jpg" class="loaded">
+                    <img alt="Grimstad library" src="images/made/uploads/diverse/Grimstad_forside_1200_515_s_c1.jpg" class="loaded">
+                    <img alt="Samling, Nord-Odal" src="images/made/uploads/diverse/1_NordOdal_1200_515_s_c1.jpg" class="loaded">
+                    <img alt="Navet, Kristiansand" src="images/made/uploads/diverse/NAVET_WAF._carusel-01_1200_515_s_c1.jpg" class="loaded">
+                    <img alt="Våronnveien 17, Oslo" src="images/made/uploads/diverse/forside_billede.jpg" class="loaded">
+                    <img alt="Flekkefjord Cultural House" src="images/made/uploads/projects/FLEKKEFJORD_CULTURAL_HOUSE-01-01_1200_515_s_c1.jpg" class="loaded">
+                    <img alt="Aspern J4" src="images/made/uploads/projects/Aspern_J4-01_1200_515_s_c1.jpg" class="loaded">
+                    <img alt="Financial Park" src="images/made/uploads/diverse/Financial_Park_carusel-01_1200_515_s_c1.jpg" class="loaded">
+                    <img alt="Gudbrandslie Cabin" src="images/made/uploads/projects/Gudbrandslie_Cabin-01_1200_515_s_c1.jpg" class="loaded">
+                    <img alt="Vennesla Library" src="images/made/uploads/projects/Vennesla_Library-01_1200_515_s_c1.jpg" class="loaded">
+                    <img alt="Sørhauggata Student Housing" src="images/made/uploads/projects/_Sørhauggata_Student_Housing_-01_1200_515_s_c1.jpg" class="loaded">
+                    <img alt="Ipark" src="images/made/uploads/diverse/Ipark-karusell_1200_515_s_c1.jpg" class="loaded">
+                    <img alt="Pulpit Rock Mountain Lodge" src="images/made/uploads/diverse/2268_preikestolhytta_1200_515_s_c1.jpg" class="loaded">
+                    <img alt="Geopark" src="images/made/uploads/diverse/big_panorama_GP_final_ny_copy_1200_515_s_c1.jpg" class="loaded">
+                    <img alt="Norway Pavilion" src="images/made/uploads/diverse/Expo-John_E_Kroll-07-website_1200_515_s_c1.jpg" class="loaded">
+                    <img alt="Ratatosk at the V&A" src="images/made/uploads/diverse/PasiAalto-HelenHard-Ratatosk-VA-London-15-Front_page_1200_515_s_c1.png" class="loaded">
+                    <img alt="Basecamp - Tree Camp" src="images/made/uploads/projects/Basecamp_-_Tree_Camp-01_1200_515_s_c1.jpg" class="loaded">
+                    <img alt="House on Reilstad" src="images/made/uploads/projects/Reilstad-01_1200_515_s_c1.jpg" class="loaded">
+                </div>
+                <!--div class="main-image current" id="img0" style="left: 0px;">
                     <a>
-                        <img alt="SPA FOR MARINA ABRAMOVIĆ" src="images/made/uploads/projects/Body__Mind_Spa_for_Marina_Abromovic-01_1200_515_s_c1.jpg">
+                        <img alt="Spa for Marina Abramović" onload="photoLoaded('#img0');" src="images/made/uploads/projects/Body__Mind_Spa_for_Marina_Abromovic-01_1200_515_s_c1.jpg" class="loaded">
                     </a>
                 </div>
+                <div class="main-image" id="img1" style="left: 0px;">
+                    <a>
+                        <img alt="Grimstad library" onload="photoLoaded('#img1');" src="images/made/uploads/diverse/Grimstad_forside_1200_515_s_c1.jpg" class="loaded">
+                    </a>
+                </div>
+                <div class="main-image" id="img2" style="left: 0px;">
+                    <a>
+                        <img alt="Samling, Nord-Odal" onload="photoLoaded('#img2');" src="images/made/uploads/diverse/1_NordOdal_1200_515_s_c1.jpg" class="loaded">
+                    </a>
+                </div>
+                <div class="main-image" id="img3" style="left: 0px;">
+                    <a>
+                        <img alt="Navet, Kristiansand" onload="photoLoaded('#img3')" src="images/made/uploads/diverse/NAVET_WAF._carusel-01_1200_515_s_c1.jpg" class="loaded">
+                    </a>
+                </div>
+                <div class="main-image" id="img4" style="left: 0px;">
+                    <a>
+                        <img alt="Våronnveien 17, Oslo" onload="photoLoaded('#img4')" src="images/made/uploads/diverse/forside_billede.jpg" class="loaded">
+                    </a>
+                </div>
+                <div class="main-image" id="img5" style="left: 0px;">
+                    <a>
+                        <img alt="Flekkefjord Cultural House" onload="photoLoaded('#img5')" src="images/made/uploads/projects/FLEKKEFJORD_CULTURAL_HOUSE-01-01_1200_515_s_c1.jpg" class="loaded">
+                    </a>
+                </div>
+                <div class="main-image" id="img6" style="left: 0px;">
+                    <a>
+                        <img alt="Aspern J4" onload="photoLoaded('#img6')" src="images/made/uploads/projects/Aspern_J4-01_1200_515_s_c1.jpg" class="loaded">
+                    </a>
+                </div>
+                <div class="main-image" id="img7" style="left: 0px;">
+                    <a>
+                        <img alt="Financial Park" onload="photoLoaded('#img7')" src="images/made/uploads/diverse/Financial_Park_carusel-01_1200_515_s_c1.jpg" class="loaded">
+                    </a>
+                </div>
+                <div class="main-image" id="img8" style="left: 0px;">
+                    <a>
+                        <img alt="Gudbrandslie Cabin" onload="photoLoaded('#img8')" src="images/made/uploads/projects/Gudbrandslie_Cabin-01_1200_515_s_c1.jpg" class="loaded">
+                    </a>
+                </div>
+                <div class="main-image" id="img9" style="left: 0px;">
+                    <a>
+                        <img alt="Vennesla Library" onload="photoLoaded('#img9')" src="images/made/uploads/projects/Vennesla_Library-01_1200_515_s_c1.jpg" class="loaded">
+                    </a>
+                </div>
+                <div class="main-image" id="img10" style="left: 0px;">
+                    <a>
+                        <img alt="Sørhauggata Student Housing" onload="photoLoaded('#img10')" src="images/made/uploads/projects/_Sørhauggata_Student_Housing_-01_1200_515_s_c1.jpg" class="loaded">
+                    </a>
+                </div>
+                <div class="main-image" id="img11" style="left: 0px;">
+                    <a>
+                        <img alt="Ipark" onload="photoLoaded('#img11')" src="images/made/uploads/diverse/Ipark-karusell_1200_515_s_c1.jpg" class="loaded">
+                    </a>
+                </div>
+                <div class="main-image" id="img12" style="left: 0px;">
+                    <a>
+                        <img alt="Pulpit Rock Mountain Lodge" onload="photoLoaded('#img12')" src="images/made/uploads/diverse/2268_preikestolhytta_1200_515_s_c1.jpg" class="loaded">
+                    </a>
+                </div>
+                <div class="main-image" id="img13" style="left: 0px;">
+                    <a>
+                        <img alt="Geopark" onload="photoLoaded('#img13')" src="images/made/uploads/diverse/big_panorama_GP_final_ny_copy_1200_515_s_c1.jpg" class="loaded">
+                    </a>
+                </div>
+                <div class="main-image" id="img14" style="left: 0px;">
+                    <a>
+                        <img alt="Norway Pavilion" onload="photoLoaded('#img14')" src="images/made/uploads/diverse/Expo-John_E_Kroll-07-website_1200_515_s_c1.jpg" class="loaded">
+                    </a>
+                </div>
+                <div class="main-image" id="img15" style="left: 0px;">
+                    <a>
+                        <img alt="Ratatosk at the V&A" onload="photoLoaded('#img15')" src="images/made/uploads/diverse/PasiAalto-HelenHard-Ratatosk-VA-London-15-Front_page_1200_515_s_c1.png" class="loaded">
+                    </a>
+                </div>
+                <div class="main-image" id="img16" style="left: 0px;">
+                    <a>
+                        <img alt="Basecamp - Tree Camp" onload="photoLoaded('#img16')" src="images/made/uploads/projects/Basecamp_-_Tree_Camp-01_1200_515_s_c1.jpg" class="loaded">
+                    </a>
+                </div>
+                <div class="main-image" id="img17" style="left: 0px;">
+                    <a>
+                        <img alt="House on Reilstad" onload="photoLoaded('#img17');" src="images/made/uploads/projects/Reilstad-01_1200_515_s_c1.jpg" class="loaded">
+                    </a>
+                </div-->
+                <script type="text/javascript">
+                    sliderOptions["main-slider"] = {
+                        animation: "vertical"
+                    };
+                    sliderConfig = {
+                        speed: 5000
+                    };
+                    sliderImages["main-slider"] = [
+                        {
+                            image: "images/made/uploads/Body__Mind_Spa_for_Marina_Abromovic-01_1200_515_s_c1.jpg",
+                            title: "Spa for Marina Abramović"
+                        },
+                        {
+                            image: "images/made/uploads/diverse/Grimstad_forside_1200_515_s_c1.jpg",
+						    title: "Grimstad library"
+                        },
+                        {
+                            image: "images/made/uploads/diverse/1_NordOdal_1200_515_s_c1.jpg",
+                            title: "Samling, Nord-Odal"
+                        },
+                        {
+                            image: "images/made/uploads/diverse/NAVET_WAF._carusel-01_1200_515_s_c1.png",
+                            title: "Navet, Kristiansand"
+                        },
+                        {
+                            image: "images/made/uploads/diverse/forside_billede.jpg",
+                            title: "Våronnveien 17, Oslo"
+                        },
+                        {
+                            image: "images/made/uploads/projects/FLEKKEFJORD_CULTURAL_HOUSE-01-01_1200_515_s_c1.jpg",
+                            title: "Flekkefjord Cultural House"
+                        },
+                        {
+                            image: "images/made/uploads/projects/Aspern_J4-01_1200_515_s_c1.jpg",
+                            title: "Aspern J4"
+                        },
+                        {
+                            image: "images/made/uploads/diverse/Financial_Park_carusel-01_1200_515_s_c1.jpg",
+                            title: "Financial Park"
+                        },
+                        {
+                            image: "images/made/uploads/projects/Gudbrandslie_Cabin-01_1200_515_s_c1.jpg",
+                            title: "Gudbrandslie Cabin"
+                        },
+                        {
+                            image: "images/made/uploads/projects/Vennesla_Library-01_1200_515_s_c1.jpg",
+                            title: "Vennesla Library"
+                        },
+                        {
+                            image: "images/made/uploads/projects/_Sørhauggata_Student_Housing_-01_1200_515_s_c1.jpg",
+                            title: "Sørhauggata Student Housing"
+                        },
+                        {
+                            image: "images/made/uploads/diverse/Ipark-karusell_1200_515_s_c1.jpg",
+                            title: "Ipark"
+                        },
+                        {
+                            image: "images/made/uploads/diverse/2268_preikestolhytta_1200_515_s_c1.jpg",
+                            title: "Pulpit Rock Mountain Lodge"
+                        },
+                        {
+                            image: "images/made/uploads/diverse/big_panorama_GP_final_ny_copy_1200_515_s_c1.jpg",
+                            title: "Geopark"
+                        },
+                        {
+                            image: "images/made/uploads/diverse/Expo-John_E_Kroll-07-website_1200_515_s_c1.jpg",
+                            title: "Norway Pavilion"
+                        },
+                        {
+                            image: "images/made/uploads/diverse/PasiAalto-HelenHard-Ratatosk-VA-London-15-Front_page_1200_515_s_c1.png",
+                            title: "Ratatosk at the V&A"
+                        },
+                        {
+                            image: "images/made/uploads/projects/Basecamp_-_Tree_Camp-01_1200_515_s_c1.jpg",
+                            title: "Basecamp - Tree Camp"
+                        },
+                        {
+                            image: "images/made/uploads/projects/Reilstad-01_1200_515_s_c1.jpg",
+                            title: "House on Reilstad"
+                        }
+                    ];
+                </script>
                 <div class="photo-descr">
                     <div>
                         <span class="prev">Previous feature:</span>
                         <span class="current">You are now seeing</span>
                         <span class="next">Next feature:</span>
-                        <div class="photo-label" id="label-0" style="font-size: 17px; left: 317.5px;">SPA FOR MARINA ABRAMOVIĆ</div>
-                        <div class="photo-label" id="label-1" style="left: 709px; font-size: 12px;">GRIMSTAD LIBRARY</div>
-                        <div class="photo-label" id="label-17" style="left: 80px; font-size: 12px;">HOUSE ON REILSTAD</div>
+                        <div class="photo-label" id="label-0" style="font-size: 17px; left: 317.5px; opacity: 1;">Spa for Marina Abramović</div>
+                        <div class="photo-label" id="label-1" style="left: 709px; opacity: 1; font-size: 12px;">Grimstad library</div>
+                        <div class="photo-label" id="label-17" style="left: 80px; opacity: 1; font-size: 12px;">House on Reilstad</div>
+
                         <div id="slider-navi" class="hidden">
                             <a class="prev"></a>
                             <a class="next"></a>
                         </div>
+                        <div class="photo-label" id="label-2" style="opacity: 0; left: 940px; font-size: 12px;">Samling, Nord-Odal</div>
+                        <div class="photo-label" id="label-3" style="opacity: 0; left: 940px; font-size: 12px;">Navet, Kristiansand</div>
+                        <div class="photo-label" id="label-4" style="opacity: 0; left: 940px; font-size: 12px;">Våronnveien 17, Oslo</div>
+                        <div class="photo-label" id="label-5" style="opacity: 0; left: 940px; font-size: 12px;">Flekkefjord Cultural House</div>
+                        <div class="photo-label" id="label-6" style="opacity: 0; left: 940px; font-size: 12px;">Aspern J4</div>
+                        <div class="photo-label" id="label-7" style="opacity: 0; left: 940px; font-size: 12px;">Financial Park</div>
+                        <div class="photo-label" id="label-8" style="opacity: 0; left: 940px; font-size: 12px;">Gudbrandslie Cabin</div>
+                        <div class="photo-label" id="label-9" style="opacity: 0; left: 940px; font-size: 12px;">Vennesla Library</div>
+                        <div class="photo-label" id="label-10" style="opacity: 0; left: 940px; font-size: 12px;">Sørhauggata Student Housing</div>
+                        <div class="photo-label" id="label-11" style="opacity: 0; left: 940px; font-size: 12px;">Ipark</div>
+                        <div class="photo-label" id="label-12" style="opacity: 0; left: 940px; font-size: 12px;">Pulpit Rock Mountain Lodge</div>
+                        <div class="photo-label" id="label-13" style="opacity: 0; left: 940px; font-size: 12px;">Geopark</div>
+                        <div class="photo-label" id="label-14" style="opacity: 0; left: 940px; font-size: 12px;">Norway Pavilion</div>
+                        <div class="photo-label" id="label-15" style="opacity: 0; left: 940px; font-size: 12px;">Ratatosk at the V&A</div>
+                        <div class="photo-label" id="label-16" style="opacity: 0; left: 940px; font-size: 12px;">Basecamp - Tree Camp</div>
                     </div>
                 </div>
+                <!--div id="slider-pager">
+                    <a href="#" class=></a>
+                    <a href="#" class></a>
+                    <a href="#" class></a>
+                    <a href="#" class></a>
+                    <a href="#" class></a>
+                    <a href="#" class></a>
+                    <a href="#" class></a>
+                    <a href="#" class></a>
+                    <a href="#" class></a>
+                    <a href="#" class></a>
+                    <a href="#" class></a>
+                    <a href="#" class></a>
+                    <a href="#" class></a>
+                    <a href="#" class></a>
+                    <a href="#" class></a>
+                    <a href="#" class></a>
+                    <a href="#" class></a>
+                    <a href="#" class></a>
+                </div-->
             </div>
             <div id="short-story" class="container">
                 <h2 class="section-title" style="background: none; position: relative;">
@@ -110,41 +335,41 @@
                     </div>
                     <div class="section-title-bg" style="position: relative; border: 6px solid rgb(237, 237, 237); display: inline-block; padding: 0px 15px; min-width: 185px; line-height: 33px; background: rgb(248, 248, 248);">LATEST NEWS & HAPPENINGS</div>
                 </h2>
-                <ul id="news" style="overflow: hidden; position: relative; height: 626px;">
+                <ul id="news" style="overflow: hidden; position: relative; height: 0px;">
                     <li class="tweet" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1);">
                         <div class="text">
                             DETAILS . The bricks surrounding the columns in @vindmollebakken en are salvaged and reused from an old factory, Un… https://t.co/UuQHOYfh4v
                         </div>
                         <div class="date">10 days ago via Twitter</div>
-                        <a class="link"></a>
+                        <a href="http://twitter.com/HelenHardAS" class="link"></a>
                     </li>
                     <li class="tweet" style="position: absolute; left: 0px; top: 0px; transform: translate3d(239px, 0px, 0px) scale3d(1, 1, 1);">
                         <div class="text">https://t.co/DYfkrEfUzV</div>
                         <div class="date">17 days ago via Twitter</div>
-                        <a class="link"></a>
+                        <a href="http://twitter.com/HelenHardAS" class="link"></a>
                     </li>
                     <li class="tweet" style="position: absolute; left: 0px; top: 0px; transform: translate3d(478px, 0px, 0px) scale3d(1, 1, 1);">
                         <div class="text">
                             Siv talkes about sustainable housing design, Gaining By Sharing and our new home in Vindmøllebakken… https://t.co/7dQBuNJPVY
                         </div>
                         <div class="date">18 days ago via Twitter</div>
-                        <a class="link"></a>
+                        <a href="http://twitter.com/HelenHardAS" class="link"></a>
                     </li>
                     <li class="tweet" style="position: absolute; left: 0px; top: 0px; transform: translate3d(717px, 0px, 0px) scale3d(1, 1, 1);">
                         <div class="text">
                             Boligpolitikkspesial på Dagsnytt 18 NÅ! Siv Helene Stangeland fra Helen & Hard prater om boligpolitikk. https://t.co/U2o9EsJhSP
                         </div>
                         <div class="date">18 days ago via Twitter</div>
-                        <a class="link"></a>
+                        <a href="http://twitter.com/HelenHardAS" class="link"></a>
                     </li>
                     <li class="tweet" style="position: absolute; left: 0px; top: 0px; transform: translate3d(239px, 119px, 0px) scale3d(1, 1, 1);">
                         <div class="text">
                             Today is the last day of the exhibition “Free spaces” at La Galerie d’Architecture in Paris. Make sure to stop by f… https://t.co/HlruVuTZw7
                         </div>
                         <div class="date">26 days ago via Twitter</div>
-                        <a class="link"></a>
+                        <a href="http://twitter.com/HelenHardAS" class="link"></a>
                     </li>
-                    <li class="tweet basic" style="position: absolute; left: 0px; top: 0px;  transform: translate3d(478px, 191px, 0px) scale3d(1, 1, 1);">
+                    <li class="article basic" style="position: absolute; left: 0px; top: 0px; opacity: 1; transform: translate3d(478px, 191px, 0px) scale3d(1, 1, 1);">
                         <div class="thumb">
                             <img src="images/made/uploads/diverse/Screen_Shot_2019-03-29_at_14.09.15_177_266.png" alt="#">
                             <div class="after"></div>
@@ -152,7 +377,14 @@
                         <div class="title">BUILDING OF THE MONTH</div>
                         <div class="date">2019-03-29</div>
                         <div class="intro"> </div>
-                        <div class="image-descr"></div>
+                        <div class="image-descr"> Photo from the opening day(Minna Soujoki) </div>
+                        <div class="fulltext">
+                            <p></p>
+                            <p>
+                                Vindmøllebakken has been named building of the month by Grønn Byggallianse only one week after the grand opening! We are so honoured and happy.
+                            </p>
+                        </div>
+                        <div class="tags"></div>
                     </li>
                 </ul>
                 <div class="links">
