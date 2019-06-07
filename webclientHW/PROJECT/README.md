@@ -1,0 +1,1 @@
+**javascript(jQuery) 파일은 assets의 하위 directory인 js에 들어있습니다**
